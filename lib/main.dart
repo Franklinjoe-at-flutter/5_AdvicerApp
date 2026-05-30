@@ -1,5 +1,5 @@
-import 'package:advicer_app/0_presentation/Core/Services/theme_service.dart';
-import 'package:advicer_app/0_presentation/Screens/Advicer_Screen/advicer_screen.dart';
+import 'package:advicer_app/0_application/Core/Services/theme_service.dart';
+import 'package:advicer_app/0_application/Screens/Advicer_Screen/advicer_screen.dart';
 import 'package:advicer_app/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

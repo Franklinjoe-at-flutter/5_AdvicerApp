@@ -1,4 +1,4 @@
-import 'package:advicer_app/0_presentation/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
+import 'package:advicer_app/0_application/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

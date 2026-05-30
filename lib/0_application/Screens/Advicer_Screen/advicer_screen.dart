@@ -1,8 +1,8 @@
-import 'package:advicer_app/0_presentation/Core/Services/theme_service.dart';
-import 'package:advicer_app/0_presentation/Screens/Advicer_Screen/advicer_widgets/error_message_field.dart';
-import 'package:advicer_app/0_presentation/Screens/Advicer_Screen/advicer_widgets/get_advice_button.dart';
-import 'package:advicer_app/0_presentation/Screens/Advicer_Screen/advicer_widgets/loaded_advice_field.dart';
-import 'package:advicer_app/0_presentation/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
+import 'package:advicer_app/0_application/Core/Services/theme_service.dart';
+import 'package:advicer_app/0_application/Screens/Advicer_Screen/advicer_widgets/error_message_field.dart';
+import 'package:advicer_app/0_application/Screens/Advicer_Screen/advicer_widgets/get_advice_button.dart';
+import 'package:advicer_app/0_application/Screens/Advicer_Screen/advicer_widgets/loaded_advice_field.dart';
+import 'package:advicer_app/0_application/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
 import 'package:advicer_app/injection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

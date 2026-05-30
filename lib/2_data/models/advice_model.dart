@@ -7,4 +7,6 @@ class AdviceModel extends AdviceEntity with EquatableMixin {
   factory AdviceModel.fromJson(Map<String, dynamic> json) {
     return AdviceModel(advice: json['advice'], id: json['advice_id']);
   }
+
+  void operator >(other) {}
 }
