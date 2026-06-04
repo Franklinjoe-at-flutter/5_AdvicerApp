@@ -1,8 +1,8 @@
-import 'package:advicer_app/0_application/Core/Services/theme_service.dart';
-import 'package:advicer_app/0_application/Screens/Advicer_Screen/advicer_widgets/error_message_field.dart';
-import 'package:advicer_app/0_application/Screens/Advicer_Screen/advicer_widgets/get_advice_button.dart';
-import 'package:advicer_app/0_application/Screens/Advicer_Screen/advicer_widgets/loaded_advice_field.dart';
-import 'package:advicer_app/0_application/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
+import 'package:advicer_app/2_application/Core/Services/theme_service.dart';
+import 'package:advicer_app/2_application/Screens/Advicer_Screen/advicer_widgets/error_message_field.dart';
+import 'package:advicer_app/2_application/Screens/Advicer_Screen/advicer_widgets/get_advice_button.dart';
+import 'package:advicer_app/2_application/Screens/Advicer_Screen/advicer_widgets/loaded_advice_field.dart';
+import 'package:advicer_app/2_application/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
 import 'package:advicer_app/injection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -68,7 +68,17 @@ class AdvicerScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 10),
-            SizedBox(height: 150, child: Center(child: GetAdviceButton())),
+            SizedBox(
+              height: 150,
+              child: Center(
+                child: GetAdviceButton(
+                  onTap: () => BlocProvider.of<AdvicerCubit>(
+                    context,
+                    listen: false,
+                  ).adviceRequested(),
+                ),
+              ),
+            ),
           ],
         ),
       ),

@@ -1,4 +1,4 @@
-import 'package:advicer_app/0_application/Screens/Advicer_Screen/bloc/advicer_bloc.dart';
+import 'package:advicer_app/2_application/Screens/Advicer_Screen/bloc/advicer_bloc.dart';
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 

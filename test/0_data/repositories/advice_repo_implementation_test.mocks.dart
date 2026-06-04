@@ -5,9 +5,9 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'dart:async' as _i5;
 
-import 'package:advicer_app/2_data/datasources/advice_remote_datasource.dart'
+import 'package:advicer_app/0_data/datasources/advice_remote_datasource.dart'
     as _i4;
-import 'package:advicer_app/2_data/models/advice_model.dart' as _i3;
+import 'package:advicer_app/0_data/models/advice_model.dart' as _i3;
 import 'package:http/http.dart' as _i2;
 import 'package:mockito/mockito.dart' as _i1;
 

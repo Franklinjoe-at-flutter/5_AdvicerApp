@@ -1,4 +1,4 @@
-import 'package:advicer_app/0_application/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
+import 'package:advicer_app/2_application/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
 import 'package:advicer_app/1_domain/entities/advice_entity.dart';
 import 'package:advicer_app/1_domain/failures/failures.dart';
 import 'package:advicer_app/1_domain/usecases/advice_usecases.dart';

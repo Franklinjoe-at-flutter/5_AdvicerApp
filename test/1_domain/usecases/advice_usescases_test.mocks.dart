@@ -7,9 +7,9 @@ import 'dart:async' as _i5;
 
 import 'package:advicer_app/1_domain/entities/advice_entity.dart' as _i7;
 import 'package:advicer_app/1_domain/failures/failures.dart' as _i6;
-import 'package:advicer_app/2_data/datasources/advice_remote_datasource.dart'
+import 'package:advicer_app/0_data/datasources/advice_remote_datasource.dart'
     as _i2;
-import 'package:advicer_app/2_data/repositories/advice_repo_implementation.dart'
+import 'package:advicer_app/0_data/repositories/advice_repo_implementation.dart'
     as _i4;
 import 'package:dartz/dartz.dart' as _i3;
 import 'package:mockito/mockito.dart' as _i1;

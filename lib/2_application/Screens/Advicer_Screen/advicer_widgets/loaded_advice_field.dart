@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 
-class LoadedAdviceField extends StatefulWidget {
+class LoadedAdviceField extends StatelessWidget {
+  static String emptyAdvice = "what should i do with an empty advice ?!";
   final String advice;
   const LoadedAdviceField({super.key, required this.advice});
 
-  @override
-  State<LoadedAdviceField> createState() => _LoadedAdviceFieldState();
-}
-
-class _LoadedAdviceFieldState extends State<LoadedAdviceField> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -19,7 +15,7 @@ class _LoadedAdviceFieldState extends State<LoadedAdviceField> {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 40),
         child: Text(
-          widget.advice,
+          advice.isNotEmpty ? '''"$advice"''' : emptyAdvice,
           style: TextStyle(color: Colors.white, fontSize: 22),
         ),
       ),

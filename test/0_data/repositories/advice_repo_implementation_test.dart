@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:advicer_app/1_domain/entities/advice_entity.dart';
 import 'package:advicer_app/1_domain/failures/failures.dart';
-import 'package:advicer_app/2_data/datasources/advice_remote_datasource.dart';
-import 'package:advicer_app/2_data/exceptions/exceptions.dart';
-import 'package:advicer_app/2_data/models/advice_model.dart';
-import 'package:advicer_app/2_data/repositories/advice_repo_implementation.dart';
+import 'package:advicer_app/0_data/datasources/advice_remote_datasource.dart';
+import 'package:advicer_app/0_data/exceptions/exceptions.dart';
+import 'package:advicer_app/0_data/models/advice_model.dart';
+import 'package:advicer_app/0_data/repositories/advice_repo_implementation.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';

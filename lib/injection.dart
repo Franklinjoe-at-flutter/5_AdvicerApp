@@ -1,8 +1,8 @@
-import 'package:advicer_app/0_application/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
+import 'package:advicer_app/2_application/Screens/Advicer_Screen/cubit/advicer_cubit.dart';
 import 'package:advicer_app/1_domain/repositories/advice_repo.dart';
 import 'package:advicer_app/1_domain/usecases/advice_usecases.dart';
-import 'package:advicer_app/2_data/datasources/advice_remote_datasource.dart';
-import 'package:advicer_app/2_data/repositories/advice_repo_implementation.dart';
+import 'package:advicer_app/0_data/datasources/advice_remote_datasource.dart';
+import 'package:advicer_app/0_data/repositories/advice_repo_implementation.dart';
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 

@@ -1,6 +1,6 @@
-import 'package:advicer_app/2_data/datasources/advice_remote_datasource.dart';
-import 'package:advicer_app/2_data/exceptions/exceptions.dart';
-import 'package:advicer_app/2_data/models/advice_model.dart';
+import 'package:advicer_app/0_data/datasources/advice_remote_datasource.dart';
+import 'package:advicer_app/0_data/exceptions/exceptions.dart';
+import 'package:advicer_app/0_data/models/advice_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart';
 import 'package:mockito/annotations.dart';
